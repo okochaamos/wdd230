@@ -46,7 +46,7 @@
     }
 
     nav .active {
-        background-color: goldenrod;
+        background-color: red;
         color: black;
     }
 

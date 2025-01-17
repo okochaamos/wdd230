@@ -34,7 +34,7 @@
     
     
     nav .active{
-        background-color: goldenrod;
+        background-color: red;
         
     }
     nav a:hover{
