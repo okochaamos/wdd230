@@ -1,0 +1,63 @@
+
+body{
+    
+    font-family: "Joti One", "Ubuntu";
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    align-content: center;
+}
+
+
+nav ul li{
+    display: flex;
+   
+    color: white;
+    margin-left: 70px;
+    align-content: center;
+    
+
+}
+
+div{
+    text-align: center;
+    display: flex;
+}
+
+nav ul li a{
+    color: white;
+    display: flex;
+    width: 300px;
+    line-height: 30px;
+    text-align: center;
+    
+    
+    
+    
+}
+
+header{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    
+}
+
+h1, h2{
+    font-family: joti One;
+    text-align: center;
+    font-size: 3rem;
+}
+
+p{
+    font-family: ubuntu;
+    text-align: center;
+}
+
+footer{
+    background-color: navy;
+    color: white;
+    font-size: 3rem;
+    height: 100px;
+    font-family: ubuntu;
+}
