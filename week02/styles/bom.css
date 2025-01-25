@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+header, main, footer {
+    max-width: 430px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    font-size: 1.5rem;
+}
+
+#favchap{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+button{
+    
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+li{
+    list-style: none;
+}
+
+deleteButton{
+    align-self: flex-end;
+}
