@@ -177,6 +177,15 @@
     .card section p{
         text-align: center;
     }
+    .hamburger {
+        display: none;
+    }
+
+    .my-link {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
     
 }
 
