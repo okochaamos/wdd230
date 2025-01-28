@@ -1,4 +1,7 @@
 @media screen and (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+    }
 
     body {
         background-color: white;
@@ -15,9 +18,13 @@
     }
 
     main {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 1rem;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        gap: 1rem;
     }
 
     section {
@@ -136,5 +143,15 @@
         text-align: left;
         width: 100%;
     }
+
+    #mode {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 3rem;
+        cursor: pointer;
+        font-size: 2rem;
+    }
     
+
 }

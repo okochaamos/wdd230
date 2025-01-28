@@ -31,7 +31,15 @@
         
         
     }
-    
+    main {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        gap: 1rem;
+    }
     
     nav .active{
         background-color: navy;
@@ -185,6 +193,14 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+    #mode {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 3rem;
+        cursor: pointer;
+        font-size: 2rem;
     }
     
 }
