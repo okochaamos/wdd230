@@ -1,0 +1,80 @@
+@media screen and (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body { background-color: white;
+        font-family: "Joti One", "Ubuntu";
+        font-size: 1rem;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        }
+
+    header{
+        background-color: navy;
+        color: white;
+        
+    }
+    section {
+        padding: 1rem;
+    }
+
+    nav ul li a{
+        color: black;
+        
+    }
+    nav a:hover {
+        background-color: skyblue;
+    }
+    nav {
+        
+        justify-content: center;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 2rem;
+        background-color: navy;
+        color: white;
+        max-width: 100%;
+
+    }
+    .hamburger {
+        background: navy;
+        color: white;
+        font-size: 2rem;
+        border: none;
+        cursor: pointer;
+        display: block;
+        padding: 0.5rem;
+        text-align: left;
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    nav ul {
+        
+        flex-direction: column;
+        background: navy;
+        color: white;
+    }
+    .my-link {
+        display: none;
+        flex-direction: column;
+        background-color: navy;
+        text-align: left;
+    }
+    
+    .my-link.show {
+        display: flex;
+    }
+    
+    .my-link a {
+        color: white;
+        padding: 0.5rem;
+    }
+    
+
+}
