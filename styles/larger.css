@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 601px) {
     body { background-color: white;
         font-family: "Roboto Condensed", sans-serif;
         font-size: 1rem;
@@ -202,6 +202,94 @@
         cursor: pointer;
         font-size: 2rem;
     }
+
+    /* Hero Section Styling */
+.hero {
+    position: relative;
+    width: 100%;
     
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Mobile and Desktop Queries */
+@media screen and (min-width: 601px) {
+    .hero img {
+        max-height: 100vh;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .hero {
+        max-width: 1600px;
+    }
+
+    .hero img {
+        width: 100%
+    }
+}
+/* Hero Section Styling */
+.hero {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero-label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Mobile and Desktop Queries */
+@media screen and (min-width: 601px) {
+    .hero img {
+        max-height: 100vh;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .hero {
+        max-width: 1400px;
+    }
+
+    .hero img {
+        max-height: 100vh;
+    }
+}
+}
