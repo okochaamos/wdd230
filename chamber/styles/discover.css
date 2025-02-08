@@ -122,6 +122,10 @@
         grid-row: 6/7;
 
     
-}    
+    }    
+    footer{
+        background-color: navy;
+        color: white;
+    }
 
 }

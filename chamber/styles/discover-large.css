@@ -15,8 +15,8 @@
         padding: 20px;
         font-size: 2rem;
         
-        background-color: grey;
-        color: black;
+        background-color: navy;
+        color: white;
     }
 
     h1, h2{
@@ -70,8 +70,8 @@
     footer{
         text-align: center;
         font-size: 2rem;
-        background-color: grey;
-        color: black;
+        background-color: navy;
+        color: white;
         height: auto;
        
     }
