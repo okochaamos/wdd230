@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okocha Amos Mba - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Course assignment portal for WDD 230 - Web Frontend Development by Okocha Amos Mba">
+    <meta name="author" content="Okocha Amos Mba">
+    <meta property="og:title" content="Web Frontend Development"/>
+    <meta property="og:description" content="WDD 230 - Web Frontend Development"/>
+    <meta property="og:image" content="https://okochaamos.github.io/wdd230/images/picture.webp"/>
+    <meta property="og:url" content="https://okochaamos.github.io/wdd230/"/>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" media="screen and (max-width: 600px)" href="styles/discover.css">
+    <link type="text/css" rel="stylesheet" media="screen and (min-width: 601px)" href="styles/discover-large.css">
+    <script src="scripts/discover.js" defer></script>
+</head>
+<body>
+    <header>
+        
+        <img src="images/picture.webp" alt="Okocha Amos Mba" width="150" height="auto" loading="lazy">
+        <span>Okocha Amos Mba</span>
+    </header>
+    
+    <nav>
+        <button id="menu" class="hamburger">
+            ❌
+          </button>
+        <ul class="my-link">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    
+
+    <main>
+          
+          <!-- Gallery Section -->
+        <section class="gallery">
+          
+          <div class="ariaria">
+            <picture>
+              <source srcset="images/ariaria-small.webp" media="(max-width: 600px)" >
+              <source srcset="images/ariaria-large.webp" media="(min-width: 601px)" >
+              <img src="images/ariaria-international-mkt.webp" alt="Ariaria International Market" loading="lazy">
+
+            </picture>
+            <div class="hero-label">
+              <p> Ariaria International Market </p>
+          
+            </div>
+          </div>
+
+          <div class="enyimba">
+
+            <picture>
+              <source srcset="images/enyimba.webp" media="(max-width: 600px)" >
+              <source srcset="images/enyimba-large.webp" media="(min-width: 601px)" >
+              <img src="images/enyimba.webp" alt=" Enyimba International Stadium" loading="lazy">
+
+            </picture>
+            <div class="hero-label">
+              <p> Enyimba International Stadium</p>
+          
+            </div>
+          </div>
+
+          <div class="star">
+
+            <picture>
+              <source srcset="images/star-paper-small.webp" media="(max-width: 600px)" >
+              <source srcset="images/star-paper-large.webp" media="(min-width: 601px)" >
+              <img src="images/star-paper-mill.webp" alt="Star Paper Mill" loading="lazy">
+
+            </picture>
+            <div class="hero-label">
+              <p> Star Paper Mill</p>
+            </div>
+          </div>
+
+          <div class="nbl">
+
+            <picture>
+              <source srcset="images/nigeria-breweries-small.webp" media="(max-width: 600px)" >
+              <source srcset="images/nigeria-breweries-large.webp" media="(min-width: 601px)" >
+              <img src="images/nigeria-breweries-aba.webp" alt="Nigeria Breweries Plc" loading="lazy">
+
+            </picture>
+            <div class="hero-label">
+              <p> Nigeria Breweries Plc </p>
+            </div>
+          </div>
+          <div class="textiles">
+            <picture>
+              <source srcset="images/textiles-small.webp" media="(max-width: 600px)" >
+                <source srcset="images/textiles-large.webp" media="(min-width: 601px)" >
+              <img src="images/textiles.webp" alt="Textiles" loading="lazy">
+
+            </picture>
+            <div class="hero-label">
+              <p> Textiles </p>
+           </div>
+          </div>
+          <div class="divine">
+            <picture>
+              <source srcset="images/divine-gate-small.webp" media="(max-width: 600px)" >
+                <source srcset="images/divine-gate-large.webp" media="(min-width: 601px)" >
+              <img src="images/divine-gate-aluminium.webp" alt="Divine Gate Aluminium Company" loading="lazy">
+
+            </picture>
+            <div class="hero-label">
+              <p> Roofing Sheets</p>
+            </div>
+          </div>
+        </section>
+        <aside class="sidebar">
+          <h2>Welcome Information</h2>
+          <p id="visitMessage"></p>
+          
+          <h3>Quick Facts:</h3>
+          <ul>
+            <li>Population: 1,230,410</li>
+            
+            <li>Main Attraction: Markets, museums, and religious sites. </li>
+            
+          </ul>
+          <p id="pageVisitCount"></p>
+        </aside>
+        
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Okocha Amos Mba, Abia, Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>   

@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 600px) {
     body { background-color: white;
         font-family: "Joti One", "Ubuntu";
@@ -13,9 +14,9 @@
         justify-content: center;
         padding: 20px;
         font-size: 2rem;
-        max-width: 1400px;
-        background-color: navy;
-        color: white;
+        
+        background-color: grey;
+        color: black;
     }
 
     h1, h2{
@@ -28,18 +29,12 @@
         font-family: ubuntu;
         text-align: center;
     }
-    img{
-        
-        max-width: 400px;
-        height: 300px;
-    
-    }
-       
+           
     
     nav{
         
         background-color: white;
-        max-width: 1400px;
+        
         margin: 0; 
         justify-content: center;
         
@@ -75,48 +70,79 @@
     footer{
         text-align: center;
         font-size: 2rem;
-        background-color: navy;
-        color: white;
-        max-width: 1400px;
+        background-color: grey;
+        color: black;
+        height: auto;
+       
     }
 
-    .area{
-        display : grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        max-width: 1400px;
-        text-align: center;
-        justify-content: center;
-        gap: 10px;
-        
-    }
-
-    .spotlight{
-        grid-column: 1/2;
-        grid-row: 1/2;
-        padding-left: 20px;
-        
-        
-    }
-
-    .action{
-        grid-column: 2/3;
-        grid-row: 1/2;
     
-    }
-
-    .events{
-        grid-column: 3/4;
-        grid-row: 1/2;
-        
-    }
     .hamburger {
         display: none;
     }
 
 
-    header, main, footer{
-        max-width: 1300px;
+    header, main, footer, nav{
+        max-width: 1000px;
+        margin: 0 auto;
     }
+    
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 50px;
+    }
+
+    .gallery picture {
+        display: block;
+    }
+
+    .ariaria{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .enyimba {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .star{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .nbl{
+        grid-column: 2/3;
+        grid-row: 2/3;
+
+    }
+    .textiles{
+        grid-column: 1/2;
+        grid-row: 3/4;
+
+    }
+    .divine{
+        grid-column: 2/3;
+        grid-row: 3/4;
+
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    header img{
+        width: 150px;
+        height: 100%;
+    }
+
+    .gallery:hover img{
+        background-color: skyblue;
+        transition: transform 0.5s ease, opacity 0.5s ease;
+      
+    }
+
     
 }

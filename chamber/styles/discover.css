@@ -1,0 +1,127 @@
+@media screen and (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body  { background-color: white;
+            font-family: "Joti One", "Ubuntu";
+            font-size: 1rem;
+            font-size: 1rem;
+            }
+        
+    
+
+    header, nav, main, footer {
+        
+        margin: 0 auto;
+        border: 1px solid #bbb;
+        padding: 1rem;
+        background-color: #e6f2ff;
+    }
+
+    main {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        gap: 1rem;
+    }
+
+    section {
+        padding: 1rem;
+        background-color: #fff;
+    }
+
+    header {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        font-size: 2rem;
+        background-color: navy;
+        color: white;
+    }
+
+    img {
+        margin-right: 30px;
+    }
+
+    nav {
+        background-color: black;
+        justify-content: center;
+    }
+
+    nav .active {
+        background-color: navy;
+        color: black;
+    }
+
+    nav a:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: 1rem;
+        color: white;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .gallery picture {
+        display: flex;
+    }
+
+    .ariaria{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .enyimba {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .star{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .nbl{
+        grid-column: 1/2;
+        grid-row: 4/5;
+
+    }
+    .textiles{
+        grid-column: 1/2;
+        grid-row: 5/6;
+
+    }
+    .divine{
+        grid-column: 1/2;
+        grid-row: 6/7;
+
+    
+}    
+
+}
