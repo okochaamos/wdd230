@@ -45,9 +45,7 @@
         color: white;
     }
 
-    img {
-        margin-right: 30px;
-    }
+    
 
     nav {
         background-color: black;
@@ -87,6 +85,7 @@
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         gap: 50px;
         text-align: center;
+        display: block;
     }
 
     .gallery picture {
@@ -127,5 +126,9 @@
         background-color: navy;
         color: white;
     }
+    header img{
+        padding-right: 20px;
+    }
+
 
 }
