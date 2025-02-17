@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Rosat Global Concept",
+      "address": "44, Jubilee Road Aba, Abia.",
+      "phone": "+234-803-348-6566",
+      "website": "www.rosat.com.ng",
+      "membership": "Gold"
+    },
+    {
+      "name": "Star Paper Mill Limited",
+      "address": "114/116, Aba Owerri Road,Umungasi, P.M.B.7376 Aba, Abia",
+      "phone": "+234-82-225-658",
+      "website": "www.starpapers.com",
+      "membership": "Silver"
+    },
+
+    {
+        "name": "Starline",
+        "address": "10 – 18, Eziama Industrial Estate Aba, Abia",
+        "phone": "+234-82-220-488",
+        "website": "www.starlinesnl.com",
+        "membership": "Silver"
+      },
+
+      {
+        "name": "GZ Industries LTD",
+        "address": "Umueme Village, Obingwa Local Government, Via Glass Force Road, Along UMU Chichi, off Okpu Umuobo, Aba, Abia State",
+        "phone": "+234-80-638-19953",
+        "website": "https://gzican.com/",
+        "membership": "Gold"
+      },
+      {
+        "name": "Nigerian Breweries Plc",
+        "address": "9 Industry Rd, Aba, 450211, Abia",
+        "phone": "+234-1-2717400 2734",
+        "website": "https://www.nbplc.com",
+        "membership": "Gold"
+      },
+      {
+        "name": "Seven-Up Bottling Company Ltd",
+        "address": " Ogbor Hill Aba",
+        "phone": "+234-805-6900 -900 ",
+        "website": "https://www.sevenup.org/",
+        "membership": "Gold"
+      }, 
+
+      {
+        "name": "Glassforce Ltd ",
+        "address": " Osusu-Umueme, Ogbor Hill, Aba, Abia State",
+        "phone": "+234-805-6900 -900 ",
+        "website": "https://chagourygroup.com/industrial/glassforce/",
+        "membership": "Gold"
+      }
+
+
+
+
+    
+
+      
+
+  ]
+  

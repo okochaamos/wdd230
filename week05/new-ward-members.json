@@ -1,0 +1,34 @@
+[
+    {
+      "familyName": "Okocha",
+      "movedInDate": "2021-12-12",
+      "numberOfPeople": 8,
+      "visitedByBishopric": true,
+      "members": [
+        {"name": "Brian", "gender": "Male", "birthdate": "2020-05-08"},
+        {"name": "Jane", "gender": "Female", "birthdate": "2022-10-23"},
+        {"name": "Chimaobi", "gender": "Male", "birthdate": "2004-04-08"},
+        {"name": "Emeka", "gender": "Male", "birthdate": "2007-08-08"},
+        {"name": "Adanneya", "gender": "Female", "birthdate": "1966-05-08"},
+        {"name": "Amos", "gender": "Male", "birthdate": "1985-10-11"},
+        {"name": "Grace", "gender": "Female", "birthdate": "1986-08-08"},
+        {"name": "Kelechi", "gender": "Male", "birthdate": "1985-09-08"}
+      ]
+    },
+    {
+      "familyName": "Ejionye",
+      "movedInDate": "2025-02-12",
+      "numberOfPeople": 8,
+      "visitedByBishopric": true,
+      "members": [
+        {"name": "Mba", "gender": "Male", "birthdate": "2020-05-08"},
+        {"name": "Nnenna", "gender": "Female", "birthdate": "1992-10-23"},
+        {"name": "Anya", "gender": "Male", "birthdate": "2004-04-08"},
+        {"name": "Ndukwe", "gender": "Male", "birthdate": "2007-08-08"},
+        {"name": "Igwe", "gender": "Female", "birthdate": "1966-05-08"},
+        {"name": "Amarachi", "gender": "Male", "birthdate": "1985-10-11"},
+        {"name": "Ogba", "gender": "Female", "birthdate": "1986-08-08"},
+        {"name": "Lifegate", "gender": "Male", "birthdate": "1985-09-08"}
+      ]
+    }
+  ]
