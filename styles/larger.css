@@ -231,6 +231,18 @@
     white-space: nowrap; /* Prevent text wrapping */
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+
+header img{
+    width: 250px;
+    height:auto;
+}
+.card{
+    text-align: center;
+}
 /* Mobile and Desktop Queries */
 @media screen and (min-width: 601px) {
     .hero img {
