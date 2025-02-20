@@ -38,10 +38,11 @@
     
     nav{
         
-        background-color: white;
+        background-color: navy;
         max-width: 1400px;
         margin: 0; 
         justify-content: center;
+        color: white;
         
         
     }
@@ -54,22 +55,28 @@
 
     }
     nav ul li a{
-        color: black;
+        color: white;
+        font-size: 1.8rem;
         
     }
     nav a:hover {
         background-color: skyblue;
     }
+    header img{
+        width: 200px;
+        height: auto;
+    }
 
 
     main {
         
-        display: flex;
+        display:flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         flex-grow: 1;
         gap: 1rem;
+        font-size: 1.3rem;
     }
 
     footer{

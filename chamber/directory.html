@@ -17,11 +17,10 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link type="text/css" rel="stylesheet" media="screen and (max-width: 600px)" href="styles/base.css">
     <link type="text/css" rel="stylesheet" media="screen and (min-width: 601px)" href="styles/larger.css">
-    
-    <!-- JavaScript files -->
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/links.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+
 </head>
 <body>
     <header>
@@ -39,6 +38,13 @@
             <li><a href="#">Form</a></li>
         </ul>
     </nav>
+    <main>
+        <div class="view-toggle">
+            <button id="grid-view">Grid View</button>
+            <button id="list-view">List View</button>
+        </div>
+        <section id="members-container" class="grid"></section>
+    </main>
 
   
 
