@@ -1,0 +1,84 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url":"week01/holygrail.html",
+            "title":"HG Layout"
+          },
+          {
+            "url":"week01/media-query.html",
+            "title":"mQueries"
+          }
+        ]
+      },
+      {
+      "week": "Week 2",
+        "links": [
+          {
+            "url":"week02/bom.html",
+            "title":"Book of Mormon"
+          },
+          {
+            "url":"week02/dark-mode.html",
+            "title":"Dark Mode Example"
+          },
+          {
+            "url":"week02/design.html",
+            "title":"Design Principles"
+          },
+          {
+            "url": "week02/hamburger-menu.html",
+            "title":"Responsive Navigation"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+          "links": [
+            {
+              "url":"week03/lazyload.html",
+              "title":"Lazy Load Demonstration"
+            },
+            {
+              "url":"wee03/responsive-images.html",
+              "title":"Responsive Images Demonstration"
+            },
+            {
+                "url": "week03/bom.html",
+                "title": "Web Storage API - local storage"
+            }
+          ]
+        },
+
+        {
+            "week": "Week 4",
+              "links": [
+                {
+                  "url":"week04/form.html",
+                  "title":"Form Input Pattern Attribute Testing"
+                },
+                {
+                  "url":"wee04/tablebuild.html",
+                  "title":"HTML Tables"
+                }
+              ]
+            },
+            {
+                "week": "Week 5",
+                  "links": [
+                    {
+                      "url":"week05/prophets.html",
+                      "title":"Working with JSON data"
+                    },
+                    {
+                      "url":"week05/weather.html",
+                      "title":"Consuming a third-party weather API"
+                    }
+                  ]
+                }
+    
+
+    ]
+}
