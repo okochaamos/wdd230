@@ -1,0 +1,54 @@
+[
+    {
+        "Names": "John Holt Ventures",
+        "Address":"7 Factory Road, Aba, Abia State Nigeria",
+        "Tel":"0803 681 7686, 08 222 0629",
+        "Url": "https://jhplc.com/",
+        "image": "",
+        "membership level": "Gold"},
+        {
+        "Names": "Paxson Nigeria",
+        "Address":"5B Ngwa Road, Abia, Abia State Nigeria",
+        "Tel":" 07028722240",
+        "Url": "http://www.paxsonnigeria.com/",
+        "image": "",
+        "membership level": "Gold"},
+
+        {"Names": "Heritage Capitals Ltd",
+        "Address":"2 Casia Avenue, opposite Abia Hotel, GRA, Aba, Abia State",
+        "Tel":"08177035328",
+        "Url": "https://www.heritagecapitals.com.ng/",
+        "image": "",
+        "membership level": "Gold"},
+
+        {"Names": "Nigeria Breweries",
+        "Address":" Industry Road, Aba, Abia , Nigeria",
+        "Tel":"0800-600-0000, 0700-825-586-6275",
+        "Url": "https://www.nbplc.com/",
+        "image": "",
+        "membership level": "Gold"},
+
+        {"Names": "GZ Industries Limited",
+        "Address":"Umueme Village, Obingwa Local Government, Via Glass Force Road, Along UMU Chichi, off Okpu Umuobo, Aba, Abia State",
+        "Tel":" +27 10 141 6740",
+        "Url": "https://gzican.com/",
+        "image": "",
+        "membership level": "Diamond"},
+
+        {"Names": "Glassforce Limited",
+        "Address":"Osusu Oma Street, Ogbor Hill, Aba",
+        "Tel":"08063819953",
+        "Url": "https://chagourygroup.com/industrial/glassforce/",
+        "image": "",
+        "membership level": "Gold"},
+
+        {"Names": "Seven-Up Bottling Company Ltd",
+        "Address":" Ogbor Hill Aba",
+        "Tel":"0805 6900 900 ",
+        "Url": "https://www.sevenup.org/",
+        "image": "",
+        "membership level": "Diamond"}
+
+
+    
+]
