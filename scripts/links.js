@@ -1,20 +1,21 @@
-
 const baseURL = "https://okochaamos.github.io/wdd230";  
 const linksURL = "https://okochaamos.github.io/wdd230/data/links.json";  
 
 async function getLinks() {  
     try {
         const response = await fetch(linksURL);  
-        if (!response.ok) throw new Error("Failed to fetch data");
+        if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
         const data = await response.json();  
         displayLinks(data.weeks); // Pass only the weeks array
     } catch (error) {
         console.error("Error fetching links:", error);
+        document.querySelector("#activity-links").innerHTML = "<p>Failed to load activity links.</p>";
     }
 }  
 
 function displayLinks(weeks) {  
-    const activityList = document.querySelector("#activity-links"); // Ensure this element exists in your HTML
+    const activityList = document.querySelector("#activity-links");  
+    activityList.innerHTML = ""; // Clear existing content  
 
     weeks.forEach(week => {  
         let weekSection = document.createElement("section");  
